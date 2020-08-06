@@ -35,10 +35,10 @@ func logFatal(err error) {
 }
 
 func main() {
-	pgUrl, err := pq.ParseURL(os.Getenv("ELEPHANTSQL_URL"))
+	pgURL, err := pq.ParseURL(os.Getenv("ELEPHANTSQL_URL"))
 	logFatal(err)
 
-	db, err = sql.Open("postgres", pgUrl)
+	db, err = sql.Open("postgres", pgURL)
 	logFatal(err)
 
 	err = db.Ping()

@@ -5,3 +5,6 @@ PostgreSQLデータベースに保存したデータに対して、CRUD操作を
 　・POST  
 　・PUT  
 　・DELETE  
+
+ElephantSQLからデータを取得  
+https://www.elephantsql.com/plans.html
